@@ -9,14 +9,25 @@ package TB;
  * @author DIKDIK
  */
 public class D implements PowInterface {
+    double n1;
+            double n2;
     public D() {
-		// TODO - implement D.D
-		throw new UnsupportedOperationException();
+        
 	}
     
     
     public double pow(double n1,double n2){
-        return 0;
+        
+        return n1*n2;
+    }
+    public double mul(double n1, double n2)
+    {
+        return n1*n2;
+    }
+    
+    public double div(double n1,double n2)
+    {
+        return n1/n2;
     }
 
     @Override
