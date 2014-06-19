@@ -13,8 +13,7 @@ public class E {
     private List dataList;
 
 	public E() {
-		// TODO - implement E.E
-		throw new UnsupportedOperationException();
+		System.out.println("Ctor E");
 	}
 
 	/**

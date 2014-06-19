@@ -9,12 +9,19 @@ package TB;
  * @author DIKDIK
  */
 public class MainApp {
+    
+    private static class string {
+
+        public string() {
+        }
+    }
     /**
 	 * 
 	 * @param arr
 	 */
 	public void main(string[] arr) {
-		// TODO - implement mainApp.main
-		throw new UnsupportedOperationException();
-	}    
+		MainApp ma = new MainApp();
+	}
+
+    
 }

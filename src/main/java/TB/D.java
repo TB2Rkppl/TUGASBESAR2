@@ -12,7 +12,7 @@ public class D implements PowInterface {
     double n1;
             double n2;
     public D() {
-        
+            System.out.println("Ctor D");
 	}
     
     
