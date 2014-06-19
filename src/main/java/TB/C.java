@@ -20,14 +20,16 @@ public class C extends Math {
         
         @Override
     int mod(int n1, int n2) {
-        return 0;
+        return n1%n2;
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
     double sqrt(double n) {
-        return 0;
-        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
+        sqrt(n);
+        return n;        
+//throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
 	public int add() {
